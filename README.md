@@ -8,6 +8,20 @@ This project demonstrates the development of a machine learning model to predict
 4. Model interpretability using SHAP.
 5. Risk scoring mechanism.
 
+## **Data Information**
+
+This project uses a dataset to analyze mortgage default risk. Due to its size, the dataset is not included in this repository. You can download the data from the following source:
+
+- [Kaggle - Home Credit Default Risk Dataset](https://www.kaggle.com/c/home-credit-default-risk/data)
+
+### **Instructions to Set Up Data**
+
+1. Download the following files from the data source:
+   - `application_train.csv`
+   - `application_test.csv`
+2. Place the downloaded files in the `data/` directory within this repository:
+
+
 ---
 
 ## **Key Features**
