@@ -1,5 +1,15 @@
 # **Mortgage Default Risk Prediction**
 
+Predicting mortgage default risk is a crucial task in the financial industry. It helps lenders identify high-risk customers and take preemptive measures to minimize losses. This project leverages advanced machine learning techniques to build predictive models, offering insights into the key factors driving mortgage defaults while ensuring the solution is scalable and interpretable.
+
+The project encompasses:
+- Data preprocessing and feature engineering to prepare the data.
+- Training and evaluating multiple models, including Logistic Regression, Random Forest, and XGBoost.
+- Model interpretability using SHAP for transparent decision-making.
+- Deployment-ready code with a REST API and Docker for scalability.
+
+This repository serves as a comprehensive example of applying machine learning to solve real-world financial challenges.
+
 ## **Overview**
 This project demonstrates the development of a machine learning model to predict mortgage default risk. The workflow includes:
 1. Data preprocessing.
