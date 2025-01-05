@@ -124,7 +124,7 @@ Installation
 		3) Access the API:
 			The API will be accessible at http://localhost:5000.
 
-# Key Insights
-Model Performance: XGBoost achieved superior performance with an AUC of 0.85.
-Feature Importance: EXT_SOURCE_3, DAYS_BIRTH, and AMT_CREDIT are significant predictors.
-Risk Stratification: Implemented a risk scoring system categorizing applicants into low, medium, and high-risk groups.
+### Key Insights
+	Model Performance: XGBoost achieved superior performance with an AUC of 0.85.
+	Feature Importance: EXT_SOURCE_3, DAYS_BIRTH, and AMT_CREDIT are significant predictors.
+	Risk Stratification: Implemented a risk scoring system categorizing applicants into low, medium, and high-risk groups.
