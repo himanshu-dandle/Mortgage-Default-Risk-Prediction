@@ -19,9 +19,24 @@ This project demonstrates the development of a machine learning model to predict
 
 ---
 
-### **File Structure**
+### File Structure
 
-Mortgage_Default_Risk_Prediction/ ├── data/ │ ├── application_train.csv # Training dataset │ ├── application_test.csv # Testing dataset ├── scripts/ │ ├── mortgage_default_analysis.py # Main script for analysis ├── output/ │ ├── xgboost_final_model.pkl # Final trained model │ ├── cross_validation_results.csv # Cross-validation results │ ├── risk_bucket_distribution.png # Risk bucket visualization │ ├── shap_feature_importance.png # SHAP summary plot │ ├── test_data_with_risk_scores.csv # Risk-scored test dataset ├── README.md └── requirements.txt # List of required libraries
+- **Mortgage_Default_Risk_Prediction/**
+  - `Dockerfile` - Docker configuration for deploying the application
+  - **data/**
+    - `application_train.csv` - Training dataset
+    - `application_test.csv` - Testing dataset
+  - **scripts/**
+    - `mortgage_default_analysis.py` - Main script for analysis
+  - **output/**
+    - `xgboost_final_model.pkl` - Final trained model
+    - `cross_validation_results.csv` - Cross-validation results
+    - `risk_bucket_distribution.png` - Risk bucket visualization
+    - `shap_feature_importance.png` - SHAP summary plot
+    - `test_data_with_risk_scores.csv` - Risk-scored test dataset
+  - `README.md`
+  - `requirements.txt` - List of required libraries
+
 
 
 ## **Setup Instructions**
