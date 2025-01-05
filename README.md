@@ -18,6 +18,15 @@ This project demonstrates the development of a machine learning model to predict
 4. Model interpretability using SHAP.
 5. Risk scoring mechanism.
 
+## Key Features
+
+- **Model Implementation**: Logistic Regression, Random Forest, and XGBoost.
+- **Threshold Adjustment**: Enhanced recall for high-risk categories.
+- **Cross-Validation**: Ensuring model robustness.
+- **Risk Scoring**: Providing actionable insights.
+- **Interpretability**: Utilizing SHAP for feature importance.
+- **Deployment**: Scalable solution with Docker.
+
 ## **Data Information**
 
 This project uses a dataset to analyze mortgage default risk. Due to its size, the dataset is not included in this repository. You can download the data from the following source:
@@ -115,4 +124,7 @@ Installation
 		3) Access the API:
 			The API will be accessible at http://localhost:5000.
 
-
+# Key Insights
+Model Performance: XGBoost achieved superior performance with an AUC of 0.85.
+Feature Importance: EXT_SOURCE_3, DAYS_BIRTH, and AMT_CREDIT are significant predictors.
+Risk Stratification: Implemented a risk scoring system categorizing applicants into low, medium, and high-risk groups.
